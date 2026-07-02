@@ -43,7 +43,7 @@ DS_CFG = {
     'FD004': {'T': 0.10, 'K': 5,  'smooth_w': 5, 'norm': 'zscore', 'model': 'rf'},
 }
 
-N_DISPLAY = 4       # sensor traces shown in top panel
+N_DISPLAY = 20      # max sensor traces — effectively "all" (C-MAPSS has ≤15)
 EXTRACT_DIR = 'cmapss_extracted'
 
 # ── Shared pipeline helpers ───────────────────────────────────────────────────
